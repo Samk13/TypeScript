@@ -15,7 +15,7 @@ const getUserById = (id: string): User => ({
   name: 'Sam',
 });
 
-const user = getUserById('123');
+const user = getUserById('123 ');
 console.log(user);
 
 const saveUser = (user: string) => console.log('saving User', { user });

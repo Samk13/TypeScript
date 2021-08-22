@@ -29,5 +29,5 @@ const handleEvenet = (event: BetterUserEvent): void => {
     console.log(event.params.userId);
     return;
   }
-  unreachableCaseError(event);
+  unreachableCaseError(event.eventType);
 };
